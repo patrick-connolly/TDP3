@@ -2,7 +2,7 @@
 
 
 // Blinking rate in milliseconds
-#define BLINKING_RATE     500ms
+#define BLINKING_RATE     5000ms
 PwmOut Right_motor(PTD4);
 PwmOut Left_motor(PTA12);
 DigitalOut direction_left_1(PTA4);
